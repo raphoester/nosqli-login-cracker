@@ -8,6 +8,7 @@ No interactive mode is implemented, so feel free to mess around with the variabl
 
 # How it works
 The script begins by searching for the password length through the following payload : <SNIP>&pass[$regex]=^.{i}$</SNIP> .
+
 Once the length is determined, it cracks the password by iterating through all possible characters and validating each possibility via <SNIP>&pass[$regex]=^abc......$</SNIP> .
 Once the cracking is done, the password gets displayed to the screen.
 
