@@ -2,7 +2,7 @@
 This go script has been designed after a TryHackMe challenge : https://tryhackme.com/room/nosqlinjectiontutorial
 
 It is designed to crack the login page supplied in this particular challenge through NoSQL injection.
-However, the script template can be re-utilized and adapted to match any kind of NoSQL injection. 
+However, the script template can be re-utilized and adapted to match any kind of boolean-based NoSQL injection. 
 
 No interactive mode is implemented, so feel free to mess around with the variables as you please.
 
