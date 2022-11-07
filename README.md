@@ -6,11 +6,11 @@ However, the script template can be re-utilized and adapted to match any kind of
 
 No interactive mode is implemented, so feel free to mess around with the variables as you please.
 
-# How it works
+## How it works
 The script begins by searching for the password length through the following payload : <SNIP>&pass[$regex]=^.{i}$</SNIP> .
 
 Once the length is determined, it cracks the password by iterating through all possible characters and validating each possibility via <SNIP>&pass[$regex]=^abc......$</SNIP> .
 Once the cracking is done, the password gets displayed to the screen.
 
-# License 
-No fucks given do whatever you want
+## License 
+No f\*cks given do whatever you want
